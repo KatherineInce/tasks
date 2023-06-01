@@ -1,0 +1,23 @@
+.main-page{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-page a{
+    padding: 20px;
+    background-color: rgb(198, 235, 255);
+    width: 60%;
+    color: rgb(0, 0, 55);
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.main-page a:hover{
+    background-color: rgb(137, 214, 255);
+    transform: scale(1.1);
+}

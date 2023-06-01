@@ -1,0 +1,20 @@
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.list .list_item{
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.list .list_item img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}

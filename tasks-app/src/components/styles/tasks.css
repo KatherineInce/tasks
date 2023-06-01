@@ -1,0 +1,83 @@
+.tasks{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.tasks .tasks_button-container{
+    display: flex;
+    justify-content: center;
+}
+.tasks_open-modal{
+    padding: 20px;
+    background-color: rgb(198, 235, 255);
+    width: 60%;
+    color: rgb(0, 0, 55);
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+}
+
+.tasks_open-modal:hover{
+    background-color: rgb(137, 214, 255);
+    transform: scale(1.1);
+}
+
+.tasks_list{
+    border: 1px solid rgb(0, 0, 55);
+    border-radius: 2px;
+}
+
+.tasks_list div{
+    padding: 10px;
+    border-bottom: 1px solid rgb(0, 0, 55);;
+}
+.tasks_list div:last-child{
+    border: none;
+}
+
+.modal_container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.modal_container .modal_input{
+    padding: 10px 0px;
+    width: 100%;
+    color: rgb(0, 0, 55);
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 10px;
+}
+
+.modal_container .modal_add{
+    padding: 10px;
+    background-color: rgb(198, 235, 255);
+    width: 100%;
+    color: rgb(0, 0, 55);
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+}
+.modal_container .modal_add:hover{
+    background-color: rgb(137, 214, 255);
+}
+.modal_container .modal_cancel{
+    padding: 10px;
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    color: rgb(0, 0, 55);
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+}
+.modal_container .modal_cancel:hover{
+    background-color: rgb(206, 206, 206);
+}
